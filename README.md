@@ -1,16 +1,75 @@
-# React + Vite
+# 🚀 React Boilerplate Starter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and scalable React boilerplate built with:
 
-Currently, two official plugins are available:
+-   **React**
+-   **React Router**
+-   **TailwindCSS**
+-   **DaisyUI**
+-   **React Icons**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This boilerplate helps you start new projects instantly without
+repeating the same setup every time.
 
-## React Compiler
+## 📦 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-   ⚡ Fast project setup
+-   🎨 TailwindCSS + DaisyUI pre-configured
+-   🖼️ React Icons included
+-   🚀 Clean & scalable folder structure
+-   🔗 React Router fully set up
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+
+    src/
+    ├── assets/
+    ├── components/
+    ├── layouts/
+    ├── pages/
+    ├── routes/
+    ├── hooks/
+    ├── context/
+    ├── styles/
+    └── main.jsx
+
+## 🛠️ How to Use This Boilerplate
+
+### 1. Use degit (recommended)
+```bash
+npx degit kamrulhasanPro/react-boilerplate my-new-project
+cd my-new-project
+npm install
+npm run dev
+```
+
+### 2. Clone using Git (optional)
+
+    git clone https://github.com/kamrulhasanPro/react-boilerplate.git
+    cd react-boilerplate
+    npm install
+    npm run dev
+
+## ⚙️ Available Scripts
+
+    npm run dev
+    npm run build
+    npm run preview
+
+## 📝 Customization
+
+-   Edit `Home.jsx` → customize landing page
+-   Edit `router.jsx` → manage routes
+-   Add components inside `/components`
+-   Modify styles within `/styles`
+
+## 👤 Created By
+
+**Kamrul Hasan Miazi**
+
+GitHub: https://github.com/kamrulhasanPro
+
+
+## 📄 License
+
+This project is open‑source and free to use.
