@@ -9,7 +9,8 @@ const Home = () => {
           Premium React Boilerplate ✨
         </h1>
         <p className="text-lg opacity-80 max-w-xl mx-auto leading-relaxed">
-          A modern, clean, and production-ready starter template built with React, React Router, TailwindCSS, DaisyUI and React-icons.
+          A modern, clean, and production-ready starter template built with
+          React, React Router, TailwindCSS, DaisyUI and React-icons.
         </p>
 
         <div className="divider"></div>
@@ -18,7 +19,10 @@ const Home = () => {
         <div className="flex flex-col items-center justify-center space-y-3">
           <div className="avatar">
             <div className="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="https://avatars.githubusercontent.com/u/202264583?v=4" alt="avatar" />
+              <img
+                src="https://avatars.githubusercontent.com/u/202264583?v=4"
+                alt="avatar"
+              />
             </div>
           </div>
 
@@ -41,17 +45,23 @@ const Home = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
           <div className="p-6 rounded-xl bg-base-200 shadow hover:shadow-lg transition-all border border-base-300">
             <h3 className="text-xl font-bold mb-2">⚡ Fast Setup</h3>
-            <p className="opacity-70">Jump into development instantly with zero repetitive setup.</p>
+            <p className="opacity-70">
+              Jump into development instantly with zero repetitive setup.
+            </p>
           </div>
 
           <div className="p-6 rounded-xl bg-base-200 shadow hover:shadow-lg transition-all border border-base-300">
             <h3 className="text-xl font-bold mb-2">🎨 Beautiful UI</h3>
-            <p className="opacity-70">Designed with TailwindCSS & DaisyUI for clean and modern visuals.</p>
+            <p className="opacity-70">
+              Designed with TailwindCSS & DaisyUI for clean and modern visuals.
+            </p>
           </div>
 
           <div className="p-6 rounded-xl bg-base-200 shadow hover:shadow-lg transition-all border border-base-300">
             <h3 className="text-xl font-bold mb-2">🚀 Scalable</h3>
-            <p className="opacity-70">Organized folder structure ready for large applications.</p>
+            <p className="opacity-70">
+              Organized folder structure ready for large applications.
+            </p>
           </div>
         </div>
       </div>
